@@ -110,7 +110,7 @@ html{
 #home::before {
     content: "";
     position: absolute;
-    background: url('http://localhost/https:/hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/header/Group\ 27076.png') no-repeat center center/cover;
+    background: url('http://hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/header/Group\ 27076.png') no-repeat center center/cover;
     height: 100%;
     top: 0px;
     left: 0px;
@@ -157,7 +157,7 @@ html{
 
 #about {
     display: flex;
-    background: url('http://localhost/https:/hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/Who\ we\ are/BG.png') no-repeat center center/cover;
+    background: url('http://hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/Who\ we\ are/BG.png') no-repeat center center/cover;
     height: 100vh;
 }
 
@@ -407,7 +407,7 @@ html{
 #our-products-right-section{
     width: 50%;
     /* background-color: #f88c2a; */
-    background: url('http://localhost/https:/hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/Product-Page/full-Web-Portal-Template.jpg') no-repeat center center/cover;
+    background: url('http://hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/Product-Page/full-Web-Portal-Template.jpg') no-repeat center center/cover;
 }
 
 .product-image{
@@ -590,7 +590,7 @@ html{
 
 /* Weekly New Letter */
 #weekly-news-letter{
-    background: url('http://localhost/https:/hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/footer/BG.png') no-repeat center center/cover;
+    background: url('http://hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/footer/BG.png') no-repeat center center/cover;
     min-height: 40vh;
 }
 
