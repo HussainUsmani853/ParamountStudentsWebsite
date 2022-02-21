@@ -7,9 +7,9 @@
 	>
 <channel>
 	<title>
-	Comments on: Hello world!	</title>
-	<atom:link href="/https://hussainusmani853.github.io/ParamountStudentsWebsite/index.php/2022/02/18/hello-world/feed/" rel="self" type="application/rss+xml" />
-	<link>/https://hussainusmani853.github.io/ParamountStudentsWebsite/index.php/2022/02/18/hello-world/</link>
+	Comments for Paramount Student	</title>
+	<atom:link href="https://https://hussainusmani853.github.io/ParamountStudentsWebsite/index.php/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://https://hussainusmani853.github.io/ParamountStudentsWebsite</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Fri, 18 Feb 2022 14:49:30 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -19,12 +19,12 @@
 	<generator>https://wordpress.org/?v=5.9</generator>
 	<item>
 		<title>
-		By: A WordPress Commenter		</title>
-		<link>/https://hussainusmani853.github.io/ParamountStudentsWebsite/index.php/2022/02/18/hello-world/#comment-1</link>
+		Comment on Hello world! by A WordPress Commenter		</title>
+		<link>https://https://hussainusmani853.github.io/ParamountStudentsWebsite/index.php/2022/02/18/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Fri, 18 Feb 2022 14:49:30 +0000</pubDate>
-		<guid isPermaLink="false">/https://hussainusmani853.github.io/ParamountStudentsWebsite/?p=1#comment-1</guid>
+		<guid isPermaLink="false">https://https://hussainusmani853.github.io/ParamountStudentsWebsite/?p=1#comment-1</guid>
 
 					<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
