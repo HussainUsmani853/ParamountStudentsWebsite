@@ -31,9 +31,9 @@ function showSlides(n) {
 // Making Products Page functional
 let productBtn = document.getElementsByClassName('product');
 let images = [
-    'http://localhost/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/Product-Page/full-Mobile-App-Template.jpg',
-    'http://localhost/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/Product-Page/full-Web-Portal-Template.jpg',
-    'http://localhost/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/Product-Page/full-CRM-Dashboard.jpg'
+    'https://hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/Product-Page/full-Mobile-APP-Template.jpg',
+    'https://hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/Product-Page/full-Web-Portal-Template.jpg',
+    'https://hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/Product-Page/full-CRM-Dashboard.jpg'
 ]
 for (let i = 0; i < images.length; i++) {
     productBtn[i].addEventListener('click', (e) => {
