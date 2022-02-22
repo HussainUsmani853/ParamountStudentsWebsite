@@ -35,12 +35,12 @@
     </nav>
     <div id="contact-modal">
         <div class="contact-modal">
-            <h1 class="heading-secondary text-center">Contact Us</h1>
+            <h1 class="heading-secondary text-center">Contact us</h1>
             <i class="fa-solid fa-xmark" id="cut"></i>
-            <p class="small-content" style="margin: 0 30px; color: black;">Leave Us a message</p>
+            <p class="small-content" style="font-weight: bold; margin: 0 30px; color: black;">Leave Us a message</p>
             <div class="main-contact" style="display: flex; flex-direction: row; width: 100%;">
                 <form class="contact-form">
-                    <input class="inputs" type="text" name="name" id="name" placeholder="FullName">
+                    <input class="inputs" type="text" name="name" id="name" placeholder="Full Name">
                     <input class="inputs" type="email" name="email" id="email" placeholder="Email Address">
                     <textarea class="inputs" name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
                     <button type="submit" class="btn_2 contact-form-send">Send</button>
@@ -48,19 +48,19 @@
                 <div class="contact-us-info">
                     <div>
                         <img src="<?php echo get_bloginfo('template_url') ?>/assets/Contact Us Pop Up/Group 27130.png" alt="">
-                        <p class="small-content" style="margin: -40px 60px !important;">
+                        <p class="small-content black-color" style="margin: -40px 60px !important;">
                             Fulya, Fulya, Fulya Mahallesi YeşilçimenSokak Polat Tower Bağımsız Bölüm 12/430, 34394 Şişli/İstanbul
                         </p>
                     </div>
-                    <div style="margin: 100px 0;">
+                    <div style="margin: 60px 0;">
                         <img src="<?php echo get_bloginfo('template_url') ?>/assets/Contact Us Pop Up/Group 27129.png" alt="">
-                        <p class="small-content" style="margin: -40px 60px !important;">
+                        <p class="small-content black-color" style="margin: -40px 60px !important;">
                             +90 531 432 0987
                         </p>
                     </div>
-                    <div style="margin: 100px 0;">
+                    <div style="margin: 70px 0;">
                         <img src="<?php echo get_bloginfo('template_url') ?>/assets/Contact Us Pop Up/Group 27128.png" alt="">
-                        <p class="small-content" style="margin: -40px 60px !important;">
+                        <p class="small-content black-color" style="margin: -40px 60px !important;">
                             hi@Paramountstudent.com
                         </p>
                     </div>

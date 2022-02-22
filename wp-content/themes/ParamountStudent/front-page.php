@@ -11,29 +11,29 @@
             </p>
             <button class="btn_2"><i class="fa-solid fa-circle-play"></i>Watch Video</button>
         </div>
-        <div class="trusted-Uni">
-            <h1 class="heading-secondary text-center">Trusted Universities in Turkey</h1>
-            <p class="small-content text-center">
-                Paramount Student is a Higher Edtech marketplace that connects
-
-                all the High Schools to International Universities as their new
-
-                agent portal for students who wish to study abroad.
-            </p>
-            <div class="uni-icons">
-                <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/download.png" alt="">
-                <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/homeLogo 1.png" alt="">
-                <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/image 15.png" alt="">
-                <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/image 16.png" alt="">
-                <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/image 22.png" alt="">
-                <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/iu.png" alt="">
-                <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/Medipol-University 1.png" alt="">
-                <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/Vector.png" alt="">
-                <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/sabanci-university-side.png" alt="">
-                <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/uskudar-university 1.png" alt="">
-            </div>
-        </div>
     </section>
+    <div class="trusted-Uni">
+        <h1 class="heading-secondary text-center">Trusted Universities in Turkey</h1>
+        <p class="small-content text-center padding-x">
+            Paramount Student is a Higher Edtech marketplace that connects
+
+            all the High Schools to International Universities as their new
+
+            agent portal for students who wish to study abroad.
+        </p>
+        <div class="uni-icons">
+            <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/download.png" alt="">
+            <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/homeLogo 1.png" alt="">
+            <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/image 15.png" alt="">
+            <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/image 16.png" alt="">
+            <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/image 22.png" alt="">
+            <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/iu.png" alt="">
+            <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/Medipol-University 1.png" alt="">
+            <img class="university-img-width" src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/Vector.png" alt="">
+            <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/sabanci-university-side.png" alt="">
+            <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/Universities-Logo/uskudar-university 1.png" alt="">
+        </div>
+    </div>
 
     <section id="about">
         <!-- Slideshow container -->
@@ -98,7 +98,7 @@
     </section>
     <section id="paramount-students-help">
         <h1 class="heading-secondary text-center">How Paramount Students can help you</h1>
-        <p class="small-content text-center">
+        <p class="small-content text-center padding-x">
             Paramount Student is a Higher Edtech marketplace that connects
 
             all the High Schools to International Universities as their new
@@ -107,8 +107,8 @@
         </p>
         <div class="p-s-h-icons">
             <div class="circle circle-1">
-                <img class="circle-img" src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/How-Paramount-Students-can-help-you/building 1.png" alt="">
-                <h3 class="circle-heading text-center">Dormitory</h3>
+                <img class="circle-img" src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/How-Paramount-Students-can-help-you/university 1.png" alt="">
+                <h3 class="circle-heading triple-heading text-center">Help to find you university</h3>
                 <p class="circle-content small-content text-center">
                     See programs that best
                     match your eligibility and
@@ -116,9 +116,8 @@
                 </p>
             </div>
             <div class="circle circle-2">
-                <img class="circle-img" src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/How-Paramount-Students-can-help-you/online-community 1.png"
-                    alt="">
-                <h3 class="circle-heading text-center">Build Community</h3>
+                <img class="circle-img" src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/How-Paramount-Students-can-help-you/resume 1.png" alt="">
+                <h3 class="circle-heading double-heading text-center">Application Guidance</h3>
                 <p class="circle-content small-content text-center">
                     See programs that best
                     match your eligibility and
@@ -126,8 +125,9 @@
                 </p>
             </div>
             <div class="circle circle-3">
-                <img class="circle-img" src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/How-Paramount-Students-can-help-you/resume 1.png" alt="">
-                <h3 class="circle-heading text-center">Application Guidance</h3>
+                <img class="circle-img" src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/How-Paramount-Students-can-help-you/online-community 1.png"
+                    alt="">
+                <h3 class="circle-heading double-heading text-center">Build Community</h3>
                 <p class="circle-content small-content text-center">
                     See programs that best
                     match your eligibility and
@@ -135,8 +135,8 @@
                 </p>
             </div>
             <div class="circle circle-4">
-                <img class="circle-img" src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/How-Paramount-Students-can-help-you/university 1.png" alt="">
-                <h3 class="circle-heading text-center">Help to find you university</h3>
+                <img class="circle-img" src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/How-Paramount-Students-can-help-you/building 1.png" alt="">
+                <h3 class="circle-heading text-center">Dormitory</h3>
                 <p class="circle-content small-content text-center">
                     See programs that best
                     match your eligibility and
@@ -170,8 +170,7 @@
                     </div>
                 </div>
             </div>
-            <div id="our-products-right-section">
-            </div>
+            <div id="our-products-right-section"></div>
         </div>
     </section>
     <section id="our-community">
@@ -186,7 +185,7 @@
         <div class="slide">
             <div class="box-community">
                 <h4 class="heading-secondary box-community-heading">Global Tribe</h4>
-                <p class="small-content">
+                <p class="small-content box-community-content">
                     Global Tribe is a diverse community
                     of students from all corners of
 
@@ -197,12 +196,12 @@
                     in all leading universities across
 
                     Istanbul......
-                    <img class="arrow-icon" src="assets/Landing-Page/Communities/Group 27133.png" alt="">
+                    <img class="arrow-icon" src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/Communities/Group 27133.png" alt="">
                 </p>
             </div>
             <div class="box-community">
                 <h4 class="heading-secondary box-community-heading">FasTalk</h4>
-                <p class="small-content">
+                <p class="small-content box-community-content">
                     Global Tribe is a diverse community
                     of students from all corners of
 
@@ -213,12 +212,12 @@
                     in all leading universities across
 
                     Istanbul......
-                    <img class="arrow-icon" src="assets/Landing-Page/Communities/Group 27133.png" alt="">
+                    <img class="arrow-icon" src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/Communities/Group 27133.png" alt="">
                 </p>
             </div>
             <div class="box-community">
                 <h4 class="heading-secondary box-community-heading">Women Unity Project</h4>
-                <p class="small-content">
+                <p class="small-content box-community-content">
                     Global Tribe is a diverse community
                     of students from all corners of
 
@@ -229,12 +228,12 @@
                     in all leading universities across
 
                     Istanbul......
-                    <img class="arrow-icon" src="assets/Landing-Page/Communities/Group 27133.png" alt="">
+                    <img class="arrow-icon" src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/Communities/Group 27133.png" alt="">
                 </p>
             </div>
             <div class="box-community">
                 <h4 class="heading-secondary box-community-heading">Student Experience</h4>
-                <p class="small-content">
+                <p class="small-content box-community-content">
                     Global Tribe is a diverse community
                     of students from all corners of
 
@@ -245,12 +244,12 @@
                     in all leading universities across
 
                     Istanbul......
-                    <img class="arrow-icon" src="assets/Landing-Page/Communities/Group 27133.png" alt="">
+                    <img class="arrow-icon" src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/Communities/Group 27133.png" alt="">
                 </p>
             </div>
             <div class="box-community">
                 <h4 class="heading-secondary box-community-heading">Vitality - Mediation & Yoga</h4>
-                <p class="small-content">
+                <p class="small-content box-community-content">
                     Global Tribe is a diverse community
                     of students from all corners of
 
@@ -259,14 +258,13 @@
 
                     sub-communities which are located
                     in all leading universities across
-
                     Istanbul......
-                    <img class="arrow-icon" src="assets/Landing-Page/Communities/Group 27133.png" alt="">
+                    <img class="arrow-icon" src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/Communities/Group 27133.png" alt="">
                 </p>
             </div>
             <div class="box-community">
-                <h4 class="heading-secondary box-community-heading">Teamp Up</h4>
-                <p class="small-content">
+                <h4 class="heading-secondary box-community-heading">Team Up</h4>
+                <p class="small-content box-community-content">
                     Global Tribe is a diverse community
                     of students from all corners of
 
@@ -277,7 +275,7 @@
                     in all leading universities across
 
                     Istanbul......
-                    <img class="arrow-icon" src="assets/Landing-Page/Communities/Group 27133.png" alt="">
+                    <img class="arrow-icon" src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/Communities/Group 27133.png" alt="">
                 </p>
             </div>
         </div>
@@ -295,8 +293,10 @@
                 <div class="user-details">
                     <h4 class="heading-secondary user-heading">Khalid Boulhala</h4>
                     <p class="small-content">Co-founder</p>
-                    <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/footer/flags/MA.png" alt="">
-                    <span class="small-content">Morocco</span>
+                    <div>
+                        <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/footer/flags/MA.png" alt="">
+                        <span class="small-content">Morocco</span>
+                    </div>
                 </div>
             </div>
             <div class="community">
@@ -305,8 +305,11 @@
                 <div class="user-details">
                     <h4 class="heading-secondary user-heading">Wajahat Hussain</h4>
                     <p class="small-content">Product Manager</p>
-                    <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/footer/flags/PK.png" alt="">
-                    <span class="small-content">Pakistan</span>
+                    <div>
+                        <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/footer/flags/PK.png" alt="">
+                        <span class="small-content">Pakistan</span>
+                    </div>
+                    
                 </div>
             </div>
             <div class="community">
@@ -315,8 +318,10 @@
                 <div class="user-details">
                     <h4 class="heading-secondary user-heading">Batuhansucu</h4>
                     <p class="small-content">Social Media Manager</p>
-                    <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/footer/flags/TR.png" alt="">
-                    <span class="small-content">Turkey</span>
+                    <div>
+                        <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/footer/flags/TR.png" alt="">
+                        <span class="small-content">Turkey</span>
+                    </div>
                 </div>
             </div>
             <div class="community">
@@ -326,8 +331,10 @@
                 <div class="user-details">
                     <h4 class="heading-secondary user-heading">Sohail Panjwani</h4>
                     <p class="small-content">Marketing Manager</p>
-                    <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/footer/flags/MW.png" alt="">
-                    <span class="small-content">Malawi</span>
+                    <div>
+                        <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/footer/flags/MW.png" alt="">
+                        <span class="small-content">Malawi</span>
+                    </div>
                 </div>
             </div>
             <div class="community">
@@ -337,8 +344,10 @@
                 <div class="user-details">
                     <h4 class="heading-secondary user-heading">Oghenerukome</h4>
                     <p class="small-content">Head Of Representive</p>
-                    <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/footer/flags/PK.png" alt="">
-                    <span class="small-content">Pakistan</span>
+                    <div>
+                        <img src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/footer/flags/PK.png" alt="">
+                        <span class="small-content">Pakistan</span>
+                    </div>
                 </div>
             </div>
             <div class="community">
@@ -348,8 +357,10 @@
                 <div class="user-details">
                     <h4 class="heading-secondary user-heading">Somaayaa</h4>
                     <p class="small-content">Head Of Representive</p>
-                    <img src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/footer/flags/PK.png" alt="">
-                    <span class="small-content">Pakistan</span>
+                    <div>
+                        <img src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/footer/flags/PK.png" alt="">
+                        <span class="small-content">Pakistan</span>
+                    </div>
                 </div>
             </div>
         </div>
