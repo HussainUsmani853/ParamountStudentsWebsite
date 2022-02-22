@@ -35,15 +35,17 @@ let images = [
     'https://hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/Product-Page/full-Web-Portal-Template.jpg',
     'https://hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Landing-Page/Product-Page/full-CRM-Dashboard.jpg'
 ]
+
+productBtn[1].style.borderLeft = '3px solid orange';
 for (let i = 0; i < images.length; i++) {
     productBtn[i].addEventListener('click', (e) => {
+        productBtn[i].style.borderLeft = '3px solid orange';
         let rightSec = document.getElementById('our-products-right-section');
         rightSec.style.background = `url('${images[i]}') no-repeat center center/cover`;
     })
 }
 
 // Making Contact Modal Working
-let body = document.body;
 let contactBtn = document.getElementById('contact-btn');
 
 contactBtn.addEventListener('click', (e) => {
