@@ -9,7 +9,7 @@
 
                 agent portal for students who wish to study abroad.
             </p>
-            <button class="btn_2"><i class="fa-solid fa-circle-play"></i>Watch Video</button>
+            <button class="btn_2"><i class="fa-solid fa-circle-play"></i><a href="https://youtube.com" target="_blank">Watch Video</a></button>
         </div>
     </section>
     <div class="trusted-Uni">
@@ -106,6 +106,7 @@
             agent portal for students who wish to study abroad.
         </p>
         <div class="p-s-h-icons">
+            <img class="bg" src="<?php echo get_bloginfo('template_url')?>/assets/Contact Us Pop Up/lining-bg.png" alt="">
             <div class="circle circle-1">
                 <img class="circle-img" src="<?php echo get_bloginfo("template_url") ?>/assets/Landing-Page/How-Paramount-Students-can-help-you/university 1.png" alt="">
                 <h3 class="circle-heading triple-heading text-center">Help to find you university</h3>
@@ -184,6 +185,7 @@
 
         <div class="slide">
             <div class="box-community">
+                <div class="community-icon"></div>
                 <h4 class="heading-secondary box-community-heading">Global Tribe</h4>
                 <p class="small-content box-community-content">
                     Global Tribe is a diverse community
@@ -200,6 +202,7 @@
                 </p>
             </div>
             <div class="box-community">
+                <div class="community-icon"></div>
                 <h4 class="heading-secondary box-community-heading">FasTalk</h4>
                 <p class="small-content box-community-content">
                     Global Tribe is a diverse community
@@ -216,6 +219,7 @@
                 </p>
             </div>
             <div class="box-community">
+                <div class="community-icon"></div>   
                 <h4 class="heading-secondary box-community-heading">Women Unity Project</h4>
                 <p class="small-content box-community-content">
                     Global Tribe is a diverse community
@@ -232,6 +236,7 @@
                 </p>
             </div>
             <div class="box-community">
+                <div class="community-icon"></div>
                 <h4 class="heading-secondary box-community-heading">Student Experience</h4>
                 <p class="small-content box-community-content">
                     Global Tribe is a diverse community
@@ -248,6 +253,7 @@
                 </p>
             </div>
             <div class="box-community">
+                <div class="community-icon"></div>
                 <h4 class="heading-secondary box-community-heading">Vitality - Mediation & Yoga</h4>
                 <p class="small-content box-community-content">
                     Global Tribe is a diverse community
@@ -263,6 +269,7 @@
                 </p>
             </div>
             <div class="box-community">
+                <div class="community-icon"></div>
                 <h4 class="heading-secondary box-community-heading">Team Up</h4>
                 <p class="small-content box-community-content">
                     Global Tribe is a diverse community

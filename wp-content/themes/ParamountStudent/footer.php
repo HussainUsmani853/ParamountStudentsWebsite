@@ -1,8 +1,8 @@
 <footer id="footer">
         <div>
             <div class="footer_sections">
+                <h1 class="heading-secondary">SOCIAL MEDIA</h1>
                 <ul>
-                    <h1 class="heading-secondary">SOCIAL MEDIA</h1>
                     <li>
                         <i class="fa-brands fa-facebook"></i> <span>Facebook</span>
                     </li>
@@ -18,8 +18,8 @@
                 </ul>
             </div>
             <div class="footer_sections">
+                <h1 class="heading-secondary">GET INVOLVED</h1>
                 <ul>
-                    <h1 class="heading-secondary">GET INVOLVED</h1>
                     <li> <a href="#about">Who We Are</a></li>
                     <li> <a href="#paramount-students-help">Our Services</a></li>
                     <li> <a href="#our-products">Our Product</a></li>
@@ -28,9 +28,7 @@
             </div>
             <div class="footer_sections">
                 <ul>
-                    <li>
-                        <h1 class="heading-secondary">SAY HELLO US</h1>
-                    </li>
+                    <li><h1 class="heading-secondary">SAY HELLO US</h1></li>
                     <li> 
                         <i class="fa-solid fa-phone"></i> <span>+44 345 678 903</span>
                     </li>
@@ -43,7 +41,7 @@
                 </ul>
             </div>
         </div>
-        <div>
+        <div class="copyright">
             <p class="small-content">Copyright &copy; 2022 All Right Reserved - Paramount</p>
         </div>
     </footer>

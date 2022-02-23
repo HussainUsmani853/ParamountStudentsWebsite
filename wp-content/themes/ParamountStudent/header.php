@@ -20,10 +20,11 @@
             <button class="btn_1" id="contact-btn"><i class="fa-solid fa-paper-plane"></i>Contact US</button>
             <li><i class="fa-solid fa-globe"></i> EN <img src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/Vector.png" alt="">
                 <ul>
-                    <li><img src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/footer/flags/PK.png" alt="">Urdu</li>
-                    <li><img src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/footer/flags/TR.png" alt="">Turkish</li>
-                    <li><img src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/footer/flags/MW.png" alt="">Malawi</li>
-                    <li><img src="<?php echo get_bloginfo('template_url') ?>/assets/Landing-Page/footer/flags/MA.png" alt="">Morocco</li>
+                    <h6 class="heading-language">Choose A Language</h6>
+                    <li>Urdu</li>
+                    <li>Turkish</li>
+                    <li>French</li>
+                    <li>Arabic</li>
                 </ul>
             </li>
         </ul>
@@ -37,7 +38,7 @@
         <div class="contact-modal">
             <h1 class="heading-secondary text-center">Contact us</h1>
             <i class="fa-solid fa-xmark" id="cut"></i>
-            <p class="small-content" style="font-weight: bold; margin: 0 30px; color: black;">Leave Us a message</p>
+            <p class="small-content" style="font-family: 'Rota'; margin: 31px 30px; color: black; font-size: 17px;">Leave us a message</p>
             <div class="main-contact" style="display: flex; flex-direction: row; width: 100%;">
                 <form class="contact-form">
                     <input class="inputs" type="text" name="name" id="name" placeholder="Full Name">
@@ -64,8 +65,8 @@
                             hi@Paramountstudent.com
                         </p>
                     </div>
-                    <div>
-                        <img class="map" style="margin: 40px 0;" src="<?php echo get_bloginfo('template_url') ?>/assets/Contact Us Pop Up/Rectangle 19.png" alt="">
+                    <div id="map">
+                        
                     </div>
                 </div>
             </div>
