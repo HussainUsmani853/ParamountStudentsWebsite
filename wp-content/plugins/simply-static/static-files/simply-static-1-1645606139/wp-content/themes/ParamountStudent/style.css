@@ -20,6 +20,11 @@ html {
     overflow-x: hidden;
 }
 
+@font-face {
+    font-family: Rota;
+    src: url('https://hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/fonts/Rota-Regular.otf');
+}
+
 ::selection {
     background: orange;
 }
@@ -32,7 +37,7 @@ html {
     background-color: rgb(34, 25, 25);
     opacity: 0.8;
     position: sticky;
-    z-index: 1;
+    z-index: 4;
     top: 1px;
     left: 0;
 }
@@ -81,21 +86,22 @@ html {
 
 .navigation ul {
     display: none;
-    background-color: whitesmoke;
+    background-color: white;
     position: absolute;
     left: 0;
     top: 100%;
-    width: 150px;
+    width: 200px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 
 .navigation ul li {
-    color: black;
+    color: #000000;
     padding: 10px;
-    border-bottom: 1px solid orange;
 }
 
 .navigation ul li:hover {
-    background-color: rgb(206, 203, 203);
+    background: linear-gradient(45deg, rgb(255, 212, 132), white);
 }
 
 .navigation ul li img {
@@ -104,6 +110,14 @@ html {
 
 .navigation li:hover>ul {
     display: block;
+}
+
+.heading-language{
+    padding: 20px 10px;
+    font-family: 'Rota';
+    font-size: 15px;
+    color: black;
+    border-bottom: 1px solid orange;
 }
 
 /* home section */
@@ -140,12 +154,17 @@ html {
     margin-right: 5px;
 }
 
+.btn_2 a{
+    text-decoration: none;
+    color: white;
+}
+
 #home .btn_2 {
     margin: 20px;
 }
 
 .trusted-Uni {
-    min-height: 60vh;
+    padding-bottom: 120px;
 }
 
 .small-content {
@@ -184,8 +203,8 @@ html {
 }
 
 .heading-about {
-    color: yellow;
-    font-family: 'Roboto', sans-serif;
+    color: #FFCE27;
+    font-family: 'Rota';
     font-size: 3rem;
     margin-bottom: 40px;
 }
@@ -209,10 +228,10 @@ html {
 
 .right-image {
     width: 270px;
-    margin: 0 -180px;
+    margin: -80px -180px;
     position: absolute;
     z-index: 0;
-    top: 210%;
+    /* top: 210%; */
 }
 
 /* Slideshow container */
@@ -232,11 +251,10 @@ html {
     cursor: pointer;
     position: absolute;
     z-index: 3;
-    top: 100%;
+    top: 115%;
     left: 50%;
     margin: 60px;
     width: auto;
-    padding: 16px;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -253,11 +271,6 @@ html {
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text
@@ -338,6 +351,13 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    top: -50%;
+    z-index: -1;
 }
 
 .circle {
@@ -366,7 +386,7 @@ html {
 }
 
 .circle:hover {
-    background-color: rgb(255, 191, 72);
+    background-color: #ffd000;
 }
 
 .circle img {
@@ -425,8 +445,13 @@ html {
     font-size: 1.4rem !important;
 }
 
+
 .product:hover {
     box-shadow: 2px 2px 5px 7px rgb(221, 219, 219);
+}
+
+.product:active{
+    border-left: 3px solid #022C4E;
 }
 
 #our-products-right-section {
@@ -437,22 +462,20 @@ html {
 /* Our Community */
 
 #our-community {
-    margin: 70px 0;
+    margin: 100px 0;
     position: relative;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 .our-community-para {
     padding: 0 200px !important;
+    margin-bottom: 60px;
 }
 
 .slide {
     display: flex;
     flex-direction: row;
-    animation: 40s linear 0s infinite normal none running slide-community;
-    /* animation-name: slide-community; */
-    /* animation-duration: 20s; */
-    /* animation-iteration-count: infinite; */
+    animation: 25s linear 0s infinite normal none running slide-community;
     position: absolute;
 }
 
@@ -461,109 +484,89 @@ html {
 }
 
 @keyframes slide-community {
-    0% {
+    0%{
+        width: 100%;
         left: 0%;
-        width: 100%;
     }
-
-    5% {
+    5%{
+        width: 100%;
         left: 10%;
-        width: 100%;
     }
-
-    10% {
+    10%{
+        width: 100%;
         left: 20%;
-        width: 100%;
     }
-
-    15% {
+    15%{
+        width: 100%;
         left: 30%;
-        width: 100%;
     }
-
-    20% {
+    20%{
+        width: 100%;
         left: 40%;
-        width: 100%;
     }
-
-    25% {
+    25%{
+        width: 100%;
         left: 50%;
-        width: 100%;
     }
-
-    30% {
+    30%{
+        width: 100%;
         left: 60%;
-        width: 100%;
     }
-
-    35% {
+    35%{
+        width: 100%;
         left: 70%;
-        width: 100%;
     }
-
-    40% {
+    40%{
+        width: 100%;
         left: 80%;
-        width: 100%;
     }
-
-    45% {
+    45%{
+        width: 100%;
         left: 90%;
-        width: 100%;
     }
-
-    50% {
+    50%{
+        width: 100%;
         left: 100%;
-        width: 100%;
     }
-
-    55% {
-        left: 90%;
+    55%{
         width: 100%;
+        right: 90%;
     }
-
-    60% {
-        left: 80%;
+    60%{
         width: 100%;
+        right: 80%;
     }
-
-    65% {
-        left: 70%;
+    65%{
         width: 100%;
+        right: 70%;
     }
-
-    70% {
-        left: 60%;
+    70%{
         width: 100%;
+        right: 60%;
     }
-
-    75% {
-        left: 50%;
+    75%{
         width: 100%;
+        right: 50%;
     }
-
-    80% {
-        left: 40%;
+    80%{
         width: 100%;
+        right: 40%;
     }
-
-    85% {
-        left: 30%;
+    85%{
         width: 100%;
+        right: 30%;
     }
-
-    90% {
-        left: 20%;
+    90%{
         width: 100%;
+        right: 20%;
     }
-
-    95% {
-        left: 10%;
+    95%{
         width: 100%;
+        right: 10%;
     }
-
-    100% {
-        left: 0%;
+    100%{
         width: 100%;
+        right: 0%;
     }
 }
 
@@ -577,13 +580,13 @@ html {
 }
 
 .box-community:hover {
-    background-color: orange;
+    background-color: #FFCE27;
     box-shadow: 2px 8px 5px 3px rgb(255, 255, 140);
 }
 
 .box-community-heading {
     color: rgb(35, 35, 82) !important;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rota';
     font-size: 1.2rem !important;
 }
 
@@ -597,7 +600,9 @@ html {
 }
 
 #meet-our-team {
-    min-height: 70vh;
+    margin-top: 200px;
+    margin-bottom: 120px;
+    min-height: 50vh;
 }
 
 /* Meet Our Team */
@@ -613,6 +618,14 @@ html {
 
 .community {
     margin: 10px 20px;
+}
+
+.community-icon{
+    background-color: #f2f2f2;
+    width: 58px;
+    height: 58px;
+    margin: 10px 0;
+    border-radius: 9px;
 }
 
 .user-icon {
@@ -653,7 +666,7 @@ html {
 }
 
 .weekly-news-letter-heading {
-    color: yellow !important;
+    color: #FFCE27 !important;
 }
 
 .weekly-news-letter-content label {
@@ -673,14 +686,14 @@ html {
     position: absolute;
     top: 5px;
     bottom: 0;
-    right: 2%;
+    right: 1%;
     height: 50px;
     width: 150px;
 }
 
 /* Contact section */
 #contact-us {
-    min-height: 40vh;
+    padding: 120px 0;
 }
 
 #contact-modal {
@@ -695,6 +708,8 @@ html {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 70%;
+    margin: auto;
 }
 
 .contact {
@@ -718,19 +733,20 @@ html {
     justify-content: center;
     align-items: center;
     background-color: #252525;
+    height: 312px;
 }
 
 #footer>div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     width: 90%;
 }
 
 .footer_sections .heading-secondary {
     font-size: 14px !important;
-    color: orange
+    color: #FFCE27;
+    margin-bottom: 32px;
 }
 
 .footer_sections {
@@ -741,19 +757,22 @@ html {
     color: white;
     margin: 10px 0;
     width: 70%;
-    justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 
 .footer_sections ul li {
     list-style: none;
-    margin: 11px;
+    margin: 15px;
 }
 
 .footer_sections ul li a {
     text-decoration: none;
     color: white;
+}
+
+.copyright{
+    margin-top: 30px;
 }
 
 .footer_sections div {
@@ -762,21 +781,19 @@ html {
 
 /* Contact Modal */
 .contact-modal {
-    padding: 30px 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
     position: sticky;
     z-index: 2;
-    top: 10%;
-    left: 17%;
+    margin: auto;
     box-shadow: 2px 2px 8px black;
-    min-height: 90vh;
     background-color: white;
-    width: 70%;
+    width: 950px;
     border-radius: 10px;
     display: none;
 }
 
 .contact-form {
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -814,8 +831,18 @@ html {
     color: black;
 }
 
+#contact-modal .heading-secondary{
+    margin: 30px;
+}
+
 .contact-us-info {
     width: 50%;
+}
+
+#map{
+    width: 390px;
+    height: 209px;
+    background: url('https://hussainusmani853.github.io/ParamountStudentsWebsite/wp-content/themes/ParamountStudent/assets/Contact Us Pop Up/Rectangle 19.png');
 }
 
 /* Making Site Responsive */
@@ -1162,7 +1189,7 @@ html {
 .btn_2 {
     padding: 15px 25px;
     color: white;
-    background: orange;
+    background: #F48212;
     border: none;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -1172,8 +1199,8 @@ html {
 
 .heading-secondary {
     font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(35, 35, 82);
+    font-family: 'Rota';
+    color: #022C4E;
     margin: 10px 0;
 }
 
