@@ -1151,6 +1151,10 @@ html {
     padding: 0 300px !important;
 }
 
+.text-decoration-none{
+    text-decoration: none;
+}
+
 .black-color{
     color: black !important;
 }
